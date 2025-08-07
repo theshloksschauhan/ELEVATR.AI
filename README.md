@@ -20,26 +20,22 @@ graph TD
     B --> D[ResourceChain]
     C --> E[Return Skills & Salaries]
     D --> F[Return Learning Resources]
-📁 Folder Structure
-bash
-Copy
-Edit
+📁 Project Structure    
 ai-career-agent/
-│
 ├── app/
-│   ├── main.py                  # FastAPI app entrypoint
-│   ├── config.py                # Env loader
+│   ├── main.py              # FastAPI app entrypoint
+│   ├── config.py            # Environment variables loader
 │   ├── utils/
-│   │   └── llm_config.py        # OpenAI model setup
+│   │   └── llm_config.py    # OpenAI model configuration
 │   ├── chains/
 │   │   ├── interest_chain.py
 │   │   ├── skill_chain.py
 │   │   └── resource_chain.py
 │   ├── agent/
-│   │   └── career_agent.py      # Final composed chain logic
+│   │   └── career_agent.py  # Final composed agent logic
 │   └── schemas/
-│       └── request.py           # Pydantic request model
-├── .env                         # 🔐 Add your API keys here (not committed)
+│       └── request.py       # Pydantic request model
+├── .env                     # 🔐 API keys (not committed)
 ├── .gitignore
 ├── requirements.txt
 └── README.md
