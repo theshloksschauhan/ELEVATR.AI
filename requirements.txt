@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+langchain>=0.1.15
+openai>=1.22.0
+huggingface_hub>=0.21.4
+python-dotenv>=1.0.1
+langchain_openai
+langchain_community
+langchain-huggingface
+torch>=1.11.0
+sentence-transformers
