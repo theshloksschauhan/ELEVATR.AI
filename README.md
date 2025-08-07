@@ -1,4 +1,4 @@
-🤖 AI Career Guidance Agent
+🤖 ELEVATR.AI is an AI Career Guidance Agent
 An intelligent career assistant built with FastAPI, LangChain, and OpenAI GPT-4 that helps students discover:
 
 🔍 Suitable career paths based on interests
